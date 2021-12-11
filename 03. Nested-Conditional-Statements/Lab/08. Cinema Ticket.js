@@ -1,7 +1,7 @@
 function demo(input) {
 
     let day = input[0];
-    
+
     if (day == "Monday" || day == "Tuesday" || day == "Friday") {
         console.log(12);
     } else if (day == "Wednesday" || day == "Thursday") {
@@ -10,3 +10,4 @@ function demo(input) {
         console.log(16);
     }
 }
+demo(["Monday"]);
