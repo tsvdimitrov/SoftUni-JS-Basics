@@ -14,5 +14,4 @@ function demo(input) {
         console.log('extremely fast');
     }
 }
-
 demo((["8"]));
