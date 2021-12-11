@@ -21,5 +21,4 @@ function demo(input) {
     console.log(bonus);
     console.log(score + bonus);
 }
-
 demo(["20"]);
