@@ -39,7 +39,6 @@ function solve(input) {
                 finalMoney = finalMoney - (finalMoney * 0.25);
             }
             break;
-
     }
 
     if (fisherMan % 2 === 0 && season !== "Autumn") {
