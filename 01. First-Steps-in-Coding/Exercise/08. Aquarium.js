@@ -1,4 +1,4 @@
-function solve(input) {
+function demo(input) {
 
     let length = parseFloat(input[0]);
     let width = parseFloat(input[1]);
