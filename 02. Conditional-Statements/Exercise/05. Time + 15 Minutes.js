@@ -17,5 +17,4 @@ function demo(input) {
         console.log(`${hours}:0${minutes}`);
     }
 }
-
 demo(["1", "46"]);
