@@ -1,4 +1,4 @@
-function solve(input) {
+function demo(input) {
 
     let rent = parseFloat(input[0]);
     let cake = (20 / 100) * rent;
