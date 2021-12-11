@@ -1,4 +1,4 @@
-function solve(input) {
+function demo(input) {
 
     let index = 0;
     let movie = input[index++];
@@ -40,7 +40,7 @@ function solve(input) {
     console.log(`${((standard / totalTickets) * 100).toFixed(2)}% standard tickets.`);
     console.log(`${((kid / totalTickets) * 100).toFixed(2)}% kids tickets.`);
 }
-solve(["Taxi",
+demo(["Taxi",
     "10",
     "standard",
     "kid",
