@@ -1,14 +1,15 @@
 function demo(input) {
 
     let resto = Number(input[0]);
-    let integralPart = Math.trunc(resto)
+    let integralPart = Math.trunc(resto);
     let coinsI = Math.trunc(integralPart / 2) + integralPart % 2;
     let coinsPm = 0;
     let coinsPn = 0;
-    let coins = 0
-    resto = resto.toFixed(2)
-    let m = resto[resto.length - 1]
-    let n = resto[resto.length - 2]
+    let coins = 0;
+    resto = resto.toFixed(2);
+    let m = resto[resto.length - 1];
+    let n = resto[resto.length - 2];
+
     switch (m) {
         case '1':
         case '2':
