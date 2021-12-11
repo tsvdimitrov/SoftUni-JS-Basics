@@ -1,4 +1,4 @@
-function solve(input) {
+function demo(input) {
 
     let strawberriesPrice = parseFloat(input[0]);
     let bananasNeeded = parseFloat(input[1]);
