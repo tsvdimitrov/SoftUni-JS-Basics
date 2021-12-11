@@ -1,4 +1,4 @@
-function solve(input) {
+function demo(input) {
 
     let days = parseInt(input[0]);
     let bakers = parseInt(input[1]);
