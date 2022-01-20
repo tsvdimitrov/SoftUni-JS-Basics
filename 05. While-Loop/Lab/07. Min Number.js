@@ -10,14 +10,12 @@ function demo(input) {
         if (num < minNum) {
             minNum = num;
         }
-
         command = input[index];
         index++;
     }
     console.log(minNum);
 }
 demo(["100",
-
     "99",
     "80",
     "70",
