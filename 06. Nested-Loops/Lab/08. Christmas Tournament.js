@@ -26,6 +26,7 @@ function demo(input) {
             currentLine = input.shift();
         }
         if (win > lose) {
+            
             total += currentMoney * 1.10;
             dayWin++;
         } else {
@@ -33,6 +34,7 @@ function demo(input) {
             dayLose++;
         }
     }
+
 
     if (dayWin > dayLose) {
         total *= 1.2;
@@ -44,6 +46,7 @@ function demo(input) {
 demo(["2",
     "volleyball",
     "win",
+
     "football",
     "lose",
     "basketball",
